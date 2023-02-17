@@ -5,6 +5,7 @@
 /**
  * main - Check if a number.
  * @void: Null value
+ *
  * Description: Print if a number is positive, negative or zero
  * Return: Zero value
  */
@@ -12,7 +13,7 @@
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
